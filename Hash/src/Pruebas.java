@@ -1,11 +1,7 @@
-
-public class Pruebas {
-
-
-
-    public static void main(String[] args) {
+// Clase Pruebas, para comprobar el funcionamiento de la clase Hash
+public class Pruebas { //Creacion de la clase Pruebas
+    public static void main(String[] args) { //Funcion main en la que probamos la clase hash mediante: insertar, get, redimensionar y factorCarga
       //Ejemplo de uso de la clase Hash
-
         Hash<String> hash = new Hash<>(7, 0.8f);
 
         hash.insertar(1, "Hola");
